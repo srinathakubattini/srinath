@@ -1,0 +1,147 @@
+*{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  */
+    background-color: whitesmoke;
+    /* color: rgb(204, 20, 20); */
+    font-size: large;
+}
+    
+/* >(.) class Selector */
+/* .para{
+    margin-top: 2px;
+    background-color: blueviolet;
+} */
+/* =>(#) id Selector */
+/* #mainpara{
+    background-color: brown;
+    color:whitesmoke;
+    margin-top: 2px; */ 
+    
+
+/* =>(elementName) element Selector */
+/* p{
+    background-color: blue;
+    color: aliceblue;
+
+} */
+/* h1{
+    background-color: aqua;
+    color: plum;
+}  */
+/* =>(comination of elementNames or class , id) grouping Selector */
+/* h1,h2,h3,h4,.para,#mainpara,span{ 
+    background-color: brown;
+    color: whitesmoke;
+}
+
+.parent>p{
+    background-color: aqua;
+    color: whitesmoke;
+
+}  */
+/* =>(~)general sibiling Selector 
+h2~p{
+    color: antiquewhite;
+    text-shadow: 3px 3px 2px blue;
+    font-size: 30px;
+    background-color: palegreen;
+
+} */
+/* => (+)adujsecnt Sibiling Selector */
+
+/* h2+p{
+    color: antiquewhite;
+    text-shadow: 3px 3px 2px blue;
+    font-size: 30px;
+    background-color: palegreen;
+
+}  */
+/* 3.Attribute Selectors */
+/* targeting style with Element [attribute] */
+/* input[type]{
+    border: 1px solid red;
+    background-color: blueviolet;
+} */
+
+/* targeting style with Element [attribute] = value  */
+/* input[type='text']{
+    border: 1px solid plum;
+    box-shadow: 2px 2px 4px blueviolet;
+    background-color: cadetblue;
+}  */
+/* targeting style with title = ^start ,$end ,~continue */
+/* p[title^='first']{
+    color: blueviolet;
+    text-shadow: 3px 3px 5px cadetblue;
+    font-size: 25px;
+}  */
+
+
+/* a:link{
+    color:green
+}
+
+a:visited{
+color: red;
+}
+
+
+a:hover{
+color: blueviolet;
+    }
+
+a:active{
+    color: rgb(167, 22, 106);
+}
+
+input:focus{
+    size-adjust: 90px;
+    border: 3px solid maroon;
+    outline: none;
+    box-shadow: 2px 2px 4px lightgrey;
+     } */
+/* 
+input:checked{
+    height: 50px;
+    width: 100px;
+} */
+
+/* p::first-letter{
+    color: rgb(56, 10, 165);
+}
+p::first-line{
+    color: brown;
+}
+.title::before{
+   content: "+";
+   color: brown;
+   text-shadow: 2px,5px pink;
+   font-size: 50px;
+   height: 50px;
+   width: 100px;
+}
+
+h2::after{
+    content: "+";
+   color: brown;
+   text-shadow: 2px,5px pink;
+   font-size: 50px;
+   height: 50px;
+   width: 100px;
+
+} */
+
+/* box model */
+.text{
+    font-size: 50px;
+    border: 5px solid;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding: 20px 50px 30px 100px;
+    margin-left: 20px;
+}
+
+
+
+
+

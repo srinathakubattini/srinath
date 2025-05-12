@@ -1,0 +1,21 @@
+body{
+    color: blueviolet;
+    height: auto;
+    width: 900px;
+    background-color: brown;
+
+    
+}
+.container{
+    background-color: yellowgreen;
+    border: 5px solid white;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;   
+}
+.parent{
+    background-color: red;
+    border: 2px solid whitesmoke;
+    height: 100px;
+    width: 110px;
+}

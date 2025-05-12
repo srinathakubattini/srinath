@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+}
+
+.hover-image {
+    width: 150px;
+    height: auto;
+    transition:  1s ease;
+   
+
+}
+
+
+
+.hover-box {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 50px;
+    height: 50px;
+    background-color:rgb(25, 168, 68);
+    color: white;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+
+/* .container:hover .hover-image {
+    transform: scale(1.1);   
+} */
+
+.container:hover .hover-box {
+    display: flex;
+    animation: moveBox 0.5s forwards infinite;
+  
+    
+}
+
+@keyframes moveBox {
+    0% {
+        transform: translate(-50%, 0); 
+        transform: rotateY(0deg);
+
+
+    }
+    50%{
+        transform: translate(10px, -400px); 
+        transform: rotateY(180deg);
+    }
+    
+
+
+    100% {
+        transform: translate(-50%, -160px); 
+        
+    }
+}

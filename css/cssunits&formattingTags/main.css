@@ -1,0 +1,45 @@
+/* 
+absolute(fixed)
+px
+mm
+cm
+pt
+relative(fluid)
+%
+vh
+vw
+em
+rem
+*/
+
+/* 
+#ab{
+
+    background-color: aqua;
+    width: 20cm;
+
+}
+#rl{
+    background-color: red; 
+    width: 50vw;  
+    height: 2rem;
+ } */
+
+
+
+
+ /* 
+    formatting tags
+
+    text-coration-line:   line-through, underline, overline
+     text-transform: capitalize, uppercase, lower case
+     text-indent:
+ */
+ p{
+    /* text-decoration-line: ; */
+    /* text-transform: capitalize; */
+       /* text-indent: 500px; */
+        
+      text-overflow: initial;
+ }
+

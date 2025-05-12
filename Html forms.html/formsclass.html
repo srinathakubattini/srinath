@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            place-items: center;
+
+        }
+        form{
+            width: 500px;
+            height: 500px;
+            border: 5px solid lightgray;
+            background-color: 1px whitesmoke;
+            text-align: center;
+
+        }
+        input{
+            border: 1px solid yellowgreen;
+
+        }
+        input:focus{
+            outline: none;
+            border: 5px  solid skyblue;
+            box-shadow: 5px 3px 10px skyblue;
+         }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <!-- inputs  =>placeholder size id name autofocus min max length required
+        types:
+        text
+        password
+        email
+        submit, button
+        number => step min max length
+        image=>src
+        color
+        file=>accept
+        checkbox
+        radio
+        select,dropdown
+        range
+        reset
+        tel
+        time,date,month
+     
+    -->
+        <form action="" method="" >
+
+            <label for="username">first name</label> <br><br><br>
+            <input type="text" name=" sri" id="username" placeholder="enter name" size="50" minlength="2" maxlength="9" autofocus required>
+
+           <br><br>
+
+            
+
+            <label for="">password</label>
+            <input type="password" name="" id="" placeholder="enter name" value="password">
+             
+            <input type="email" name="" id="" placeholder="enter gmail">
+
+            <label for="">month</label>
+            <input type="month" name="" id="" placeholder="" >
+              
+            <label for="">date</label>
+            <input type="datetime-local" name="" id="" placeholder="" >
+
+            <label for="">number</label>
+            <input type="number" name="" id="" placeholder=""  maxlength="10" minlength="0" step="5">
+            <input type="image" src="./image.jpg" name="" id="">
+               <input type="color">
+
+               <input type="file" accept="">
+               <label for="">gender</label>
+               <!-- name should be common -->
+               <input type="radio" name="gender" id="" value="male"><span>male</span>
+               <input type="radio" name="gender" id="" value="female"><span>female</span>
+               <input type="radio" name="gender" id="" value="other"><span>others</span>
+              <!-- checkbox -->
+              <label for="">front end</label>
+              <!-- name should be common -->
+              <input type="checkbox" name="front" id="" value="html"><span>html</span>
+              <input type="checkbox" name="front" id="" value="css"><span>css</span>
+              <input type="checkbox" name="front" id="" value="js"><span>js</span>
+               
+              <!-- select -->
+               <select name="" id="">
+               <optgroup label="front">
+                <option value="">html</option>
+                <option value="">css</option>
+               </optgroup>
+                <option value="">js</option>
+                <option value="">react</option>
+               </select>
+
+               <!-- range -->
+                <input type="range" >
+                <!-- text area -->
+                 <textarea name="" id="" rows="5" cols="10"></textarea>
+                 <!-- fieldset , legend-->
+                  <fieldset>
+                    <legend>login</legend>
+                  </fieldset>
+                  <!-- reset -->
+                   <input type="reset">
+
+
+            <input type="submit" value="login" >
+
+
+ 
+        </form>
+    
+</body>
+</html>

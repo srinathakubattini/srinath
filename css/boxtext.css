@@ -1,0 +1,44 @@
+div{
+    background-color: rgb(228, 226, 226);
+    height:700px;
+  
+    text-align: center;
+    margin: 0%;
+}
+h1{
+    color: blue;
+}
+
+.container{
+    border: 2px solid;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 5px 3px 3px grey;
+}
+h2{
+    margin-bottom: 0%;
+}
+
+input{
+   
+    height: 30px;
+    width: 170px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+p{
+    margin: 0%;
+    color: rgb(182, 180, 180);
+}
+button{
+    height: 200px solid;
+    width: 40px;
+}
+
